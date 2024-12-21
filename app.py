@@ -14,4 +14,4 @@ app.register_blueprint(extract_invoice_bp, url_prefix='/extract-invoice')
 app.register_blueprint(predict_bp, url_prefix='/predict')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8000)
